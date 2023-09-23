@@ -1,0 +1,21 @@
+sudo apt install docker.io = to install docker
+
+sudo usermod -aG docker <user machine name>
+
+docker images = to list all the docker images
+
+docker run <image name>
+
+docker pull = to pull docker image from docker hub
+
+docker ps = to list running containers
+
+docker ps -a = to list all running containers
+
+docker stop <4 characters of container id>
+
+docker run -it = To make the container run continuously
+
+docker rmi = to delete docker images
+
+docker exec
